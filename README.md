@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-add to your model to set feed variables and map feed attributes
+add this code to your model (set feed variables and map feed attributes)
 
 ```ruby
   yandex_rss total: 20, #optional, default 20, max 100
