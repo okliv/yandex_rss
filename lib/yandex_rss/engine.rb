@@ -1,3 +1,3 @@
-module MyGem
+module YandexRss
   class Engine < Rails::Engine; end
 end
