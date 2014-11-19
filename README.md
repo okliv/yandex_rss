@@ -20,7 +20,47 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add to your model to set feed variables and map feed attributes
+
+```ruby
+  yandex_rss total: 20, #optional, default 20, max 100
+                         channel: {
+                             title: 'Site title here',
+                             link: 'Site url here',
+                             description: 'Site description here',
+                             image: {
+                                 url: 'http://website.com/logo.png',
+                                 title: 'Site title here',
+                                 link: 'Site url here'
+                             }
+                         },
+                         attributes: {
+                             title: :name,
+                             link: :path,
+                             pdalink: :pda_path,
+                             description: :body,
+                             author: :username,
+                             category: :section_name,
+                             pub_date: :published_at,
+                             genre: 'Horror',
+                             full_text: :body_full},
+                         assets: {
+                             collection_method: :publication_pictures,
+                             collection_items_methods: {
+                                 url: :link,
+                                 is_video: false #true or false - optional
+                             }
+                         },
+                         related: {
+                             collection_method: '',
+                             collection_items_methods: {
+                                 url: '',
+                                 name: ''
+                             }
+                         }
+```
+
+go to the `/yandex_rss` path and see if you get what you need
 
 ## Contributing
 
