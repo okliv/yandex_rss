@@ -18,7 +18,7 @@ xml.rss :version => '2.0', 'xmlns:yandex' => 'http://news.yandex.ru', 'xmlns:med
         xml.description post[:description]
         xml.author post[:author]
         xml.category post[:category]
-        for asset in post[:assets]
+        for asset in post[:assets].to_a
           type = asset[:video] ? 'video/x-ms-asf' : 'image/jpeg'
           xml.enclosure url: asset[:url], type: type
         end
@@ -28,7 +28,7 @@ xml.rss :version => '2.0', 'xmlns:yandex' => 'http://news.yandex.ru', 'xmlns:med
         # xml.send('yandex:online', post.online)
         if post[:related_posts].to_a.size>0
           xml.send('yandex:related') do
-            for related_post in post[:related_posts]
+            for related_post in post[:related_posts].to_a
               xml.link(url: related_post[:url]) { related_post[:name] }
             end
           end
