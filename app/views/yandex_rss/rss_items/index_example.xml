@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+        ￼
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Российские новости</title>
+    <link>http://www.rossiyskie-novosti.ru/</link>
+    <description>Ежедневная иллюстрированная московская общественно-политическая газета.</description>
+    <image>
+      <url>http://www.rossiyskie-novosti.ru/logo.gif</url>
+      <title>Российские новости</title>
+      <link>http://www.rossiyskie-novosti.ru/</link>
+    </image>
+    <item>
+      ￼
+      <title>Яндекс ищет на президентском сайте</title>
+      <link>http://www.rossiyskie-novosti.ru/2003/03/25/yandex.html</link>
+      <pdalink>http://www.m.rossiyskie-novosti.ru/2003/03/25/yandex.html</pdalink>
+      <description>Программный продукт Яndex.Site установлен на официальном сайте президента России</description>
+      <author>Иван Петров</author>
+      <category>Технологии</category>
+      <enclosure url="http://www.rossiyskie-novosti.ru/2003/03/25/yandex.jpg" type="image/jpeg"/>
+      <enclosure url="http://www.rossiyskie-novosti.ru/2003/03/25/yandex1.jpg" type="image/jpeg"/>
+      <enclosure url="http://www.rossiyskie-novosti.ru/video/100237" type="video/x-ms-asf"/>
+      <pubDate>Sun, 29 Sep 2002 19:59:01 +0400</pubDate>
+      <yandex:genre>message</yandex:genre>
+      <yandex:full-text>Для поиска по сайту www.kremlin.ru выбрана программа Яndex.Site. Этот программный
+        продукт был исследован провайдером президентского сайта - Федеральным агентством правительственной
+        связи и информации. ФАПСИ сочло возможным использование поисковой системы &lt;Яндекса&gt; на
+        www.kremlin.ru. По результатам исследования программа была скомпилирована, протестирована и
+        установлена на сайт
+      </yandex:full-text>
+      <yandex:online>http:// www.rossiyskie-novosti.ru /translation.xml</yandex:online>
+      <yandex:related>
+        <link url="http://www.kremlin.ru/">Президент России</link>
+      </yandex:related>
+    </item>
+  </channel>
+</rss>
