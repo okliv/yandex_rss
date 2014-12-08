@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = YandexRss::VERSION
   spec.authors       = ['ok']
   spec.email         = ['']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = 'Yandex News Rss Feed Generator'
+  spec.description   = 'Yandex News Rss Feed Generator'
   spec.homepage      = ''
   spec.license       = 'MIT'
 
